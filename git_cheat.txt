@@ -1,0 +1,46 @@
+| **Category**          | **Command**                                     | **Description**                        |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Configuration**     | `git config --global user.name "Your Name"`     | Set your name                          |
+|                       | `git config --global user.email "your.email@example.com"` | Set your email                         |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Initialization**    | `git init`                                      | Initialize a new repository            |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Cloning**           | `git clone <url>`                               | Clone an existing repository           |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Staging**           | `git status`                                    | Check status of working directory      |
+|                       | `git add <file>`                                | Add file to the staging area           |
+|                       | `git add .`                                     | Add all files to the staging area      |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Committing**        | `git commit -m "message"`                       | Commit changes                         |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Branching**         | `git branch`                                    | List branches                          |
+|                       | `git branch <branch-name>`                      | Create a new branch                    |
+|                       | `git checkout <branch-name>`                    | Switch to a branch                     |
+|                       | `git checkout -b <branch-name>`                 | Create and switch to a new branch      |
+|                       | `git merge <branch-name>`                       | Merge a branch into the current branch |
+|                       | `git branch -d <branch-name>`                   | Delete a branch                        |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **History**           | `git log`                                       | Show commit history                    |
+|                       | `git log <file>`                                | Show file history                      |
+|                       | `git show <commit>`                             | Show changes in a commit               |
+|                       | `git diff`                                      | Show changes in the working directory  |
+|                       | `git diff <commit1> <commit2>`                  | Show changes between commits           |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Remote**            | `git remote -v`                                 | List remote repositories               |
+|                       | `git remote add <name> <url>`                   | Add a remote repository                |
+|                       | `git fetch <remote>`                            | Fetch changes from remote              |
+|                       | `git push <remote> <branch>`                    | Push changes to remote                 |
+|                       | `git pull <remote> <branch>`                    | Pull changes from remote               |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Undoing Changes**   | `git reset <file>`                              | Unstage a file                         |
+|                       | `git checkout -- <file>`                        | Revert changes in working directory    |
+|                       | `git reset --hard <commit>`                     | Reset to a previous commit             |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Tagging**           | `git tag <tag-name>`                            | Create a new tag                       |
+|                       | `git tag`                                       | List tags                              |
+|                       | `git push <remote> --tags`                      | Push tags to remote                    |
+|-----------------------|-------------------------------------------------|----------------------------------------|
+| **Stashing**          | `git stash`                                     | Stash changes                          |
+|                       | `git stash list`                                | List stashes                           |
+|                       | `git stash apply`                               | Apply stashed changes                  |
+|                       | `git stash drop`                                | Drop a stash                           |
